@@ -184,6 +184,7 @@ stage {
         costume frame_180("user:medintu.vlad/frame180")
         sound RickAstleyNever("user:medintu.vlad/RickAstleyNever")
         function RickRoll(size, x, y, musicbool) {
+            this.show()
             this.setCostume(this.frame_1);
             this.size = size
             this.x = x
@@ -193,6 +194,9 @@ stage {
             }
             for(let i = 1; i <= 180; i++){
                 this.nextCostume()
+            }
+            when stage.started{
+                this.hide()
             }
         }
   }
