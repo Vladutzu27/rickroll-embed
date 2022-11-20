@@ -1,5 +1,5 @@
 # How to use the Rick Roll embed in your own stagescript projects:
-* paste the code into your project
+* paste [this](https://github.com/Vladutzu27/rickroll-embed/blob/main/rickroll.js) code into your project
 * Go to the place where you want to rickroll someone
 * type this code:
 ```js
